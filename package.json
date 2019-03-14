@@ -2,8 +2,13 @@
   "name": "douban-trailer",
   "version": "0.0.0",
   "description": "douban-trailer",
-  "main": "server.js",
+  "main": "index.js",
   "author": {
     "name": ""
+  },
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "koa": "^2.7.0"
   }
 }
