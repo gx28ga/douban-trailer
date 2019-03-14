@@ -3,12 +3,18 @@
   "version": "0.0.0",
   "description": "douban-trailer",
   "main": "index.js",
+  "scripts": {
+    "dev": "nodemon -w server --exec \"babel-node server --presets env\""
+  },
   "author": {
     "name": ""
   },
   "dependencies": {
     "babel-cli": "^6.26.0",
     "babel-preset-env": "^1.7.0",
-    "koa": "^2.7.0"
+    "koa": "^2.7.0",
+    "koa-views": "^6.1.5",
+    "nodemon": "^1.18.10",
+    "pug": "^2.0.3"
   }
 }
