@@ -1,0 +1,9 @@
+{
+  "name": "douban-trailer",
+  "version": "0.0.0",
+  "description": "douban-trailer",
+  "main": "server.js",
+  "author": {
+    "name": ""
+  }
+}
