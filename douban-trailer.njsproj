@@ -12,7 +12,8 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>567df975-3435-445e-b8bf-31024d43dfb3</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>server.js</StartupFile>
+    <StartupFile>
+    </StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -29,9 +30,51 @@
     <DebugSymbols>true</DebugSymbols>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="server.js" />
+    <Content Include=".babelrc" />
+    <Content Include=".editorconfig" />
+    <Content Include=".gitattributes" />
+    <Content Include=".gitignore" />
+    <Content Include="package-lock.json" />
     <Content Include="package.json" />
+    <Content Include="parcel\css\index.css" />
+    <Content Include="parcel\dist\css.c23966ab.css" />
+    <Content Include="parcel\dist\css.c23966ab.css.map" />
+    <Content Include="parcel\dist\es.40fee9fa.js.map" />
+    <Content Include="parcel\dist\index.html" />
+    <Content Include="parcel\img\madoka.jpg" />
+    <Content Include="parcel\index.html" />
     <Content Include="README.md" />
+    <Content Include="server\views\includes\header.pug" />
+    <Content Include="server\views\includes\script.pug" />
+    <Content Include="server\views\includes\style.pug" />
+    <Content Include="server\views\index.pug" />
+    <Content Include="server\views\layouts\default.pug" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="crawler\" />
+    <Folder Include="parcel\" />
+    <Folder Include="parcel\css\" />
+    <Folder Include="parcel\dist\" />
+    <Folder Include="parcel\es\" />
+    <Folder Include="parcel\img\" />
+    <Folder Include="parcel\js\" />
+    <Folder Include="server\" />
+    <Folder Include="server\tpl\" />
+    <Folder Include="server\views\" />
+    <Folder Include="server\views\includes\" />
+    <Folder Include="server\views\layouts\" />
+    <Folder Include="src\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="crawler\crawler.js" />
+    <Compile Include="index.js" />
+    <Compile Include="parcel\dist\es.40fee9fa.js" />
+    <Compile Include="parcel\es\app.js" />
+    <Compile Include="parcel\es\index.js" />
+    <Compile Include="parcel\js\index.js" />
+    <Compile Include="parcel\server.js" />
+    <Compile Include="server\index.js" />
+    <Compile Include="src\index.js" />
   </ItemGroup>
   <!-- Do not delete the following Import Project.  While this appears to do nothing it is a marker for setting TypeScript properties before our import that depends on them. -->
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets" Condition="False" />

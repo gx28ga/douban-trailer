@@ -7,12 +7,12 @@ class AppContainer extends Component {
     super();
   }
   state = {
-    name:"madoka!"
+    name:"dio"
   }
 
   componentDidMount() {
     setTimeout(() => {
-      this.setState({name:"i am madoka!"})
+      this.setState({name:"jotaro"})
     },2000)
   }
 
