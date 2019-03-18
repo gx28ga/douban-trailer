@@ -44,6 +44,7 @@
     <Content Include="parcel\img\madoka.jpg" />
     <Content Include="parcel\index.html" />
     <Content Include="README.md" />
+    <Content Include="1.mp4" />
     <Content Include="server\views\includes\header.pug" />
     <Content Include="server\views\includes\script.pug" />
     <Content Include="server\views\includes\style.pug" />
@@ -59,7 +60,8 @@
     <Folder Include="parcel\js\" />
     <Folder Include="server\" />
     <Folder Include="server\crawler\" />
-    <Folder Include="server\test\" />
+    <Folder Include="server\database\" />
+    <Folder Include="server\database\schema\" />
     <Folder Include="server\tasks\" />
     <Folder Include="server\tpl\" />
     <Folder Include="server\views\" />
@@ -76,11 +78,12 @@
     <Compile Include="parcel\server.js" />
     <Compile Include="server\crawler\trailer-list.js" />
     <Compile Include="server\crawler\video.js" />
+    <Compile Include="server\database\init.js" />
+    <Compile Include="server\database\schema\movie.js" />
     <Compile Include="server\index.js" />
     <Compile Include="server\tasks\api.js" />
     <Compile Include="server\tasks\movie.js" />
     <Compile Include="server\tasks\trailer.js" />
-    <Compile Include="server\test\sync.js" />
     <Compile Include="src\index.js" />
   </ItemGroup>
   <!-- Do not delete the following Import Project.  While this appears to do nothing it is a marker for setting TypeScript properties before our import that depends on them. -->
